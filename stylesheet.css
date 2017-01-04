@@ -13,10 +13,9 @@ h1 {
 	}
 
 ul {
-	width:150px;
 	font-size: 16pt;
 	list-style: none;
-	color: blue;
+	color: black;
 	padding:0;
 	}
 
@@ -39,12 +38,13 @@ ul li a:active {
 	}
 	
 table {
+	float: left;
 	margin-top: 10px;
 	border-collapse: collapse;
 	width: 250px;
 	}
 td, th {
-	border: 1px solid blue;
+	border: 1px solid black;
 	text-align:left;
 	}
 p {
@@ -56,9 +56,9 @@ hr {
 }
 h2 {
 	font-size: 16pt; 
-	color: white;
+	color: black;
 	font-family: arial, sans-serif;
-	border-bottom: solid 1px blue;
+	border-bottom: solid 1px black;
 	font-weight: lighter;
 }
 .tableimg > img {
